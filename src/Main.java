@@ -227,7 +227,7 @@ public class Main {
         System.out.println(test);
 
 
-        // 20. Merge Scores (manual, without merge())
+        // 20. Merge Scores
         HashMap<String,Integer> scores1 = new HashMap<>();
         scores1.put("Aida",40);
         scores1.put("Azat",35);
@@ -252,7 +252,7 @@ public class Main {
         System.out.println(scores1);
 
 
-        // 21. Invert Map (manual, without computeIfAbsent)
+        // 21. Invert Map
         HashMap<Integer, ArrayList<String>> inverted = new HashMap<>();
 
         for (Map.Entry<String,Integer> entry : scores1.entrySet()) {
