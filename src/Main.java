@@ -267,7 +267,7 @@ public class Main {
         System.out.println(inverted);
 
 
-        // 22. Top-2 Frequent Words (without sorting)
+        // 22. Top-2 Frequent Words
         String text2 = "Java is fun and Java is powerful and fun";
         String[] words2 = text2.toLowerCase().split(" ");
 
